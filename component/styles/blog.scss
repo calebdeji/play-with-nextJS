@@ -1,0 +1,16 @@
+.blog__nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 20px 20px;
+    border: solid 1px #e5e5e5;
+}
+
+.blog__nav__link {
+    margin: 10px 0;
+}
+
+.blog__nav__link {
+    list-style-type: disc;
+    color: blue;
+    text-decoration: underline;
+}
