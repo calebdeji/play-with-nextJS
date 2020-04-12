@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../Header/Header";
-const Layout = props => {
+import "../styles/index.scss";
+const Layout = (props) => {
     return (
         <>
             <Header /> {props.children}

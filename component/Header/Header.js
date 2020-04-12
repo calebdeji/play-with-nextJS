@@ -1,13 +1,19 @@
 import Link from "next/link";
-import style from "./header.module.css";
+import "./header.scss";
 const Header = () => {
     return (
-        <header style={style.header}>
-            <Link href='/main'>
-                <a> Home </a>
+        <header className='header'>
+            <Link href='/'>
+                <a className='header__link'> Home </a>
             </Link>
             <Link href='/about'>
-                <a> About </a>
+                <a className='header__link'> About </a>
+            </Link>
+            <Link href='/blog'>
+                <a className='header__link'> Blog </a>
+            </Link>
+            <Link href='/shows'>
+                <a className='header__link'> Show </a>
             </Link>
         </header>
     );

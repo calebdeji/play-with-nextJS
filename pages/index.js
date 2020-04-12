@@ -9,7 +9,15 @@ const Home = () => {
                 <title>Learn Next App</title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
+<<<<<<< HEAD
             <Layout></Layout>
+=======
+            <Layout>
+                <main>
+                    <p> Home </p>
+                </main>
+            </Layout>
+>>>>>>> blog-app
         </>
     );
 };
